@@ -20,6 +20,5 @@ class SwapTwoNo {
 		x = y;
 		y = z;
 		System.out.println("After swapping: " + x + ", " + y);
-		System.out.println();
 	}
 }
