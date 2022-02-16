@@ -10,7 +10,11 @@ public class LeapYearCheckerProgram {
 		year = scanner.nextInt();
 
 		scanner.close();
-		checkLeapYear(year);
+		if (year > 999 && year < 10000) {
+			checkLeapYear(year);
+		} else {
+			System.out.println("Enter a 4 digit year");
+		}
 	}
 
 	public static void checkLeapYear(int year) {
